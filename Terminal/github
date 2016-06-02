@@ -1,0 +1,2 @@
+git remote set-url origin git@github.com:ppreyer/first_app.git           pata cambiar la direccion de la URL de un repositorio
+                                                                         soluciona el problema del fatal:access remote 
