@@ -1,0 +1,13 @@
+ <input type="text" placeholder="" name="">            Este es para meter datos el placeholder es para el texto dentro de el y el name es como sale en el servidor
+
+input{
+	background-color: skyblue;          para darle el color interno a los inputs
+}
+
+
+
+
+::-webkit-input-placeholder { color: blue; } /* WebKit */
+:-moz-placeholder { color: blue; } /* Firefox 18- */          Cambiar el color del placeholder de los inputs
+::-moz-placeholder { color: blue; } /* Firefox 19+ */
+:-ms-input-placeholder { color: blue; } /* IE 10+ */

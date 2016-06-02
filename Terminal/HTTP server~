@@ -1,0 +1,4 @@
+sudo npm install http-server -g
+
+http://127.0.0.1:8080
+

@@ -1,0 +1,5 @@
+ <input type="text" placeholder="" name="">            Este es para meter datos el placeholder es para el texto dentro de el y el name es como sale en el servidor
+
+input{
+	background-color: skyblue;          para darle el color interno a los inputs
+}

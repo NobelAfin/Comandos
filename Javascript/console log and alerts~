@@ -1,0 +1,4 @@
+console.log(2*5)            para imprimir lo que esta sucediendo en consola de el inpeccionador
+
+console.log("Hello")       Todo lo que este dentro de los parentesis se imprime en consola
+

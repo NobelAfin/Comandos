@@ -1,0 +1,3 @@
+5.times do
+puts "repitiendo"        .times hace lo que un do while pero solo las veces que se pide en lugar de hacer el codigo para que se salga
+end

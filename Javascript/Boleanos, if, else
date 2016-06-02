@@ -1,0 +1,35 @@
+"i am coding, i am a champ, i am".length > 10;      si el resultado es cierto o falso cambia el resultado, bases de if 
+                                                    en este esta diciendo que la longitud de el texto es mayor a 10 y es cierto
+
+    > Greater than
+    < Less than
+    <= Less than or equal to
+    >= Greater than or equal to
+    === Equal to
+    !== Not equal to
+
+if ("cracatoyyyyaaaa".length <= 7 ) {            Si es verdad imprime en la consola o en el alert el texto si es mentira no lo hace            
+    console.log("Thats huge" );                  se podria pasar al else si es que hubiera
+}
+
+
+if ("halo5".length <=5 )                                En este si el if es cierto  imprime "true" del if y se lleva a cabo la accion
+{
+    console.log("Let's go down the first road!");       de no ser asi y ser "lie" sale como un else y se efectua este en cambio
+}
+else 
+{
+    console.log("Awesome!!");
+    
+}
+
+
+if (condition) 
+{
+    // if condition is true
+    // do this code
+}
+else // "otherwise"
+{
+    // do this code instead
+}

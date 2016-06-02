@@ -1,0 +1,13 @@
+cd=             casa
+branch=        crear rama
+rm -rf =       borrar carpeta madre
+Esc mas dd=    borrar la actividad anteriorc
+ls=            lista de archivos dentro del archivo
+mkdir=         crear carpeta madre
+vi=            visualizar carpeta 
+Esc mas :wq!=  salir del archivo 
+ls -la checar  la lista de carpetas y la cuantos archivos tiene cada uno y los permisos wrx que tiene
+
+
+i en vim para iniciar a escribir
+

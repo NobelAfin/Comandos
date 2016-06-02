@@ -1,0 +1,17 @@
+<p style="font-size:40px"> para cambiar el tamaño de la letra. GRANDE o chica
+
+<li style="font-family: Arial">Hello!</li> este es para cambiar el estilo de letra a la que sea que te guste de estilo de letra
+
+<p style="color:red"> estes es para cambiar de colores
+
+<p style="background-color: red;">Hello!</p> para cambiar toda la zona que se marca de color como pintar una pared
+
+<h3 style="text-align:center">Favorite Football Teams</h3>  este style es para alinear el texto y situarlo en donde queremos ponerlo como en word alinear al centro o al derecha ETC
+
+<strong>too</strong> este "strong" es para remarcar la o las palabras que esten dentro. puede verse bien en letras de colores
+
+<em>so</em> este es para hacer hacia un lado la palabras como el estilo especial de word 
+
+float:right este hace que los elementos se vayan hacia arriba 
+ 
+text-transform: uppercase;        Para transformar todas las letras de minusculas a mayusculas

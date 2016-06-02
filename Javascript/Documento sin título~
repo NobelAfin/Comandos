@@ -1,0 +1,11 @@
+"something".length                            para saber cuanto mide algo
+
+confirm("")  confirm("Show me your data");   para que salga un alert de confirmacion de los datos introducidos
+
+prompt("Ubuntu what?")                       Para que salga un alert con titulo y a este se le pueda introducir texto como un input    
+
+signos de operaciones en Javascript
++ mas
+- menos
+/ dividir
+* multiplicar
