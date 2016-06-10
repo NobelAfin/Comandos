@@ -1,5 +1,12 @@
 2.methods para abrir todos los metodos en el traductor 
+Los metodos son lo equitativo a los verbos en espanol. como ejemplo correr, pero al igual que en espanol tiene que haber un objeto 
+que realice la accion, como ejemplo: "Enrique corre en el parque" en ruby seria Enrique.run(park) Asi que debe estipularse 
+el objeto Enrique y el objeto park por separado.
 
-Metodos           que hace el metodo
+Metodos           que hace el metodo                                            
 
-gets                 
+gets              
+
+length            mide la cantidad de elementos de el objeto que se le asigna 
+
+reverse           convierte el objeto al revez de el original 
