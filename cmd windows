@@ -1,0 +1,17 @@
+Comando                Explicacion
+
+help                   Muestra los comandos que el cmd puede efectuar o lo puedes acortar Ejemplo: help:color
+title                  title + texto hace cambiar el nombre del cdm
+time                   cambia la hora de la computadora
+date                   cambia la fecha de la computadora
+control                abre la barra de control
+cls                    limpia la pantalla del cmd
+explorer               abre el explorador de documentos
+mspaint                abre paint
+cd                     manejo de directorios
+cd/                    va al inicio del directorio
+cd ..                  se regresa al archivo padre del lugaar actual del PATH
+del                    borrar un archivo (como rm)
+dir                    directorio de archivos que contiene la carpeta actual (ls de windows)
+rename                 renombra o mueve un archivo (mv en linux)
+
