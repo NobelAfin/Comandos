@@ -14,4 +14,7 @@ cd ..                  se regresa al archivo padre del lugaar actual del PATH
 del                    borrar un archivo (como rm)
 dir                    directorio de archivos que contiene la carpeta actual (ls de windows)
 rename                 renombra o mueve un archivo (mv en linux)
+type                   muestra el contenido de un archivo (vi en linux)
+write >>               Crea un archivo en una carpeta (como touch o vim en linux)
+MD o MKDIR             Crea una carpeta padre o directorio
 
