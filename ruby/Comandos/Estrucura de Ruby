@@ -1,0 +1,27 @@
+Aqui vemos como se programa en ruby
+VARIABLES
+La variable se coloca asi: nombre = Enrique
+
+TRUE, FALSE, AND, OR, UNLESS conditions
+
+if (condicion)
+codigo que se ejecita si la condicion es cierta
+else
+codigo que se ejecuta si no se cumple la condicion
+end
+
+LOS ELSIF
+if (condicion)
+codigo que se ejecuta de ser cierto
+elsif (condicion2) 
+codigo que se ejecuta si la 2da condicion es cierta
+else
+codigo que se ejecuta si ninguna condicion es cierta
+
+IMPORTANT!
+Esto ejemplifica que un metodo es importante o alguna variable y los obliga a ejecutarse
+Ejemplo:
+puts "quiero que todas las letras sean mayusculas"
+must = gets.chomp                                           Aqui se obliga a todas las letras a que sigan el metodo upcase.
+must.upcase! 
+
