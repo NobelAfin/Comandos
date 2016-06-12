@@ -3,10 +3,32 @@ Los metodos son lo equitativo a los verbos en espanol. como ejemplo correr, pero
 que realice la accion, como ejemplo: "Enrique corre en el parque" en ruby seria Enrique.run(park) Asi que debe estipularse 
 el objeto Enrique y el objeto park por separado.
 
+Recuerda que puedes unir los metodos asi:
+name = "Enrique"
+name.upcase.downcase.reverse.length
+
 Metodos           que hace el metodo                                            
 
 gets              
 
 length            mide la cantidad de elementos de el objeto que se le asigna 
 
-reverse           convierte el objeto al revez de el original 
+reverse           convierte el objeto al revez de el original
+
+upcase            convierte en mayusculas
+
+downcase          convierte en minusculas
+
+attr_accessor     super importante para que se le pueda dar permisos a la variable si no nos marcara error
+attr_reader       stack overflow lo explica perfectamente http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby?rq=1
+attr_writer       http://stackoverflow.com/questions/5046831/why-use-rubys-attr-accessor-attr-reader-and-attr-writer
+
+print             Ambas imprimen pero lo hacen con unas enormes diferencias print. imprime tal cual se le dice y 
+Puts              deja  un espacio en la misma linea. http://stackoverflow.com/questions/5018633/what-is-the-difference-between-print-and-puts
+                  Puts elimina todo lo que es lenguage de ruby e imprime los resultados pero en una linea abajo
+gets              Introduce una linea para que el usuario pueda escribir y regresa lo escrito del usuario como un string 
+chomp             hace que sea ordenado el metodo get eliminando y estilizando lineas
+
+capitalize      La primera letra se convierte en mayusculas y el resto en minusculas
+
+
