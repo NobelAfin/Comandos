@@ -1,0 +1,5 @@
+Si hay dudas consultar el libro de ruby
+1.-primero ir a "https://rvm.io/"    2.-eleccionar "\curl -sSL https://get.rvm.io | bash -s stable y pegar en consola"
+2.1-si funciona poner "rvm" en consola y si sale la documentacion esta listo de lo contrario "apt-get install rvm" 
+3.- reiniciar terminal y despues configurar la version a usar de ruby asi "rvm install 2.3.1"
+
