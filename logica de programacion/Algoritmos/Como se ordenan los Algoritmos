@@ -1,0 +1,72 @@
+Hay 2 clases de algoritmos 
+-CUALITATIVOS    	Aquellos que no contienen calculos numericos, se resulven problemas de la vida cotidiana
+-CUANTITATIVOS          Aquellos que se enfoca en calculos numericos
+
+CUALITATIVOS 
+contienen 3 partes:
+
+1.-La secuencia de acciones
+El orden de las acciones del programa de forma ordenada. "Acomodar las secuencias de acciones de un programa"
+
+Como llamar por telefono celular. Secuencia de acciones
+
+INICIO
+1.-Buscar el numero de la persona a la que se desea llamar 
+2.-Marcar el numero en el telefono
+3.-Expresar lo que se desea decir a la persona
+4.-Colgar la llamada
+5.-Guardar el numero en lista de contactos
+FIN
+
+La decision de acciones
+Se decide el camino logico a seguir. "Se usa los switches y boleanos para guiar el camino"
+INICIO
+1.-Buscar el numero de la persona a la que se desea llamar                      Aqui usamos las estructuras if else, switches
+if (numero encontrado)                                                          && and, || or, !not
+2.-Marcar numero de telefono
+   if (contestan)
+    3.-Expresar lo que se desea decir a la persona
+    4.-Colgar la llamada
+    5.-Guardar el numero en la lista de contactos
+   else (colgar)
+else (buscar el numero por otros medios y encontrarlo)
+FIN
+
+El ciclo de acciones                        
+Son estructuras que nos permiten repetir las acciones X veces BUCLES
+                                         INICIO
+Se emplean las estructuras               1.-Buscar el numero de la persona a la que se desea llamar     
+Mientras/hasta    Repetir/hasta          while 
+ Do While          Repeat While          no se encuentra el numero deseado
+                                         repeat 
+                                         2.-Marcar numero de telefono
+                                         while
+                                         el numero esta ocupado
+                                         repeat
+                                         else
+                                         3.-Expresar lo que se desea decir a la persona
+                                         4.-Colgar la llamada
+                                         5.-Guardar el numero en la lista de contactos
+                                         FIN
+
+
+CUANTITATIVOS                                       Ejemplo: suma de 3 numeros
+Contienen 3 parte
+
+1.-ENTRADA                                          Leer los 3 numeros
+Aqui se introducen los datos iniciales              N1, N2, N3
+
+2.-EL PROCESO                                       Suma de 3 numeros
+Aqui se indican los pasos que el ordenador debe     N1 + N2 + N3
+de hacer en este caso sumar
+
+3.-LA SALIDA                                        Resultado de la suma
+aqui se muestran los resultados de las operaciones  (N1 + N2 + N3)
+
+
+
+
+
+
+
+

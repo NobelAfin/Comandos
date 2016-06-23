@@ -1,0 +1,9 @@
+
+
+En el archivo routes.rb se agregran todas las rutas a configurar para encontrar la pagina.
+
+Rails.application.routes.draw do
+  get 'pages/batman'                  Como ejemplo aqui tenemos las 2 paginas que estan asignadas y se pueden visualizar
+  get 'pages/superman'                si hubiera otra pagina como 'pages/halo' no se podria visualizar debido a que no esta en la ruta
+
+end

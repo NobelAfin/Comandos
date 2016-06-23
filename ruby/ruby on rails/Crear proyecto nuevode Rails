@@ -1,0 +1,10 @@
+
+rails new Enrique_Avelar -d postgresql    Para crear un proyecto nuevo con postgresql como default
+
+encoding: utf-8   cambiar en config/database.yml
+
+En la seccion de produccion poner todos los datos de heroku
+
+La version de Rails depende de la version de ruby instalada, si se cambia de version se tendra que instalar uno nuevo.
+
+despues introducir el codigo "rails s" y entrar a http://localhost:3000/ para ver qu este conectado.

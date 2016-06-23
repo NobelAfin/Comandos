@@ -1,0 +1,17 @@
+Los bucles se utilizan para ejecutar CICLOS de codigo hasta que se determine que se deje de repetir 
+
+BUCLE while
+While se usa para repetir el codigo un indefinido numero de veces "mientras" se cumpla la condicion
+de lo contrrio este para de repetir.Ejemplo
+x = 5   
+ while ( x > 0) {x * 2 = x}
+    print ("ahora x vale" #{x})
+
+BUCLE do while
+Do While se usa cuando bo se sabe cuantas veces se debe ejecutar el blocke. Ejemplo:
+x = 5
+do ( x * 2)
+while (x > 0)
+print ("ahora x vale" #{x})
+
+

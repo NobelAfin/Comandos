@@ -1,0 +1,31 @@
+  CREAR UNA BASE DE DATOS         
+
+CREATE DATABASE (nombre_de_la_base_de_datos)        Para crearla
+\c (nombre_de_la_base_de_datos)                     Para cambiar a esa base de datos (switch)                  
+\l                                                  Listar la base de datos
+
+
+CAMBIAR DE USUARIO
+psql -U postgres                                         
+
+CAMBIAR DE BASE DE DATOS
+psql -U postgres
+
+CREAR UNA TABLA DE DATOS
+CREATE TABLE (nombre_de_la_tabla)               CREATE  TABLE table_name(
+                                                column1 datatype,
+                                                column2 datatype,
+                                                column3 datatype,
+                                                columnN datatype
+                                                );
+                                        Dentro de base de datos creada con las columas que se requiere y su dato de la tabla Ejemplo:
+                                     (nombre)varchar(64)    (edad)int   (fecha)varchar(64)   (correo)varchar(64)
+En este ejemplo 1 nombre es la columna
+y varchar es el datatype o sea string
+
+
+
+
+INSERT INTO users (name) VALUES ('prueba');
+
+Para introducir dato al usuario que quieras a la columna seleccionada

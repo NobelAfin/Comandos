@@ -1,0 +1,24 @@
+rails generate controller (nombre del proyecto)
+sin el el controlador no se puede visualizar la pagina web
+Es el enlace o intermediario entre el html y el servidor
+
+rails g controller nombre_grupo pag1 pag2 pag3
+
+
+rails g controller emprendedor perfil contacto           genera el controlador emprendedor/perfil y emprendedor/contacto
+
+
+class EmprendedorController < ApplicationController     Esto se aprecia en app/controllers/nombre_controlador
+  def perfil
+  end
+
+  def contacto
+  end
+end
+
+Al entrar en app/views/y el nombre del controlador.  Las paginas que se crean en el controlador se conectan automaticamente al padre "layouts"
+                                                     Por medio del metodo <%= yield %> que es la "vista" 
+
+
+
+

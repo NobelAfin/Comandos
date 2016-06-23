@@ -1,0 +1,18 @@
+
+ACCEDER A LA BASE DE DDATOS
+1.- sudo su - postgres     Para autorizar permiso y cambiar a "modo" o "usuario" postgresql y poder trabajar en el
+2.- psql                   Para entrar a modo de usuario despues del permiso
+
+
+CREAR USUARIOS 
+1.-create user desafioblog;    Con este comando creamos el usuario "desafioblog"
+
+Si queremos agregar contrasena a ese usuario este es el comando         2.- alter role desafioblog with password 'superdesafio';
+
+3.- alter role desafioblog with superuser;              Si queremos tener todos los permisos para modificar,eliminar y alterar con este usuario
+
+VER TODOS LOS USUARIOS Y BASES
+    \du                           con este comando se ven todos los usuarios de la base de datos
+    \l                            Para ver TODAS las bases de datos que tienes
+
+

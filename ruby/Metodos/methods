@@ -31,4 +31,7 @@ chomp             hace que sea ordenado el metodo get eliminando y estilizando l
 
 capitalize      La primera letra se convierte en mayusculas y el resto en minusculas
 
+gsub             Hace que se sustituya alguna accion ya sea numeros, variables, strings etc y la remplaza por la senalada Ejemplo:
+                 user_input.gsub!(/s/, "th")  Asi se debe usar y nos dice que si "user_input" introduce una "s" la remplace com "th"
+
 

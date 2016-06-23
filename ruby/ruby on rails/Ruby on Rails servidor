@@ -1,0 +1,32 @@
+sudo apt-get install postgresql postgresql-contrib
+instalar postgreql y despues ir a gorails e instalar la version de ubuntu 16.04 si es que todavia tienes esa version
+
+rails new Enrique_Avelar -d postgresql    Para crear un proyecto nuevo con postgresql como default
+
+despues de crear las bases de datos ejecutar estos comandos de rake:
+rake db:create 
+rake db:migrate
+
+Asi debe estar database.yml
+
+
+default: &default
+  adapter: postgresql
+  encoding: utf-8
+  pool: 5
+
+development:
+  <<: *default
+  database: democv_development
+
+test:
+  <<: *default
+  database: democv_test
+
+production:
+  <<: *default
+  database: democv_production
+  username: nobel
+  password: <%= ENV['avatar9005'] %>
+
+En gemfile cambiar a 'pg' en lugar de sqlite3

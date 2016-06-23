@@ -1,0 +1,17 @@
+  
+   ?  	  Evalua "true" or "false" al metodo que se le asigna, Ejemplo:
+          
+          if user_input.include? "s"     
+          print "hey"                     Si es "true" y hay una "s" en el string se imprime esta opcion 
+          else
+          print "you"                     De lo contrario se imprime "false"
+          end
+   
+   !     Hace que el metodo sea importante y obliga al programa a que no lo pase por alto  
+         Es el OBLIGATORIO de ruby. Ejemplo
+     
+         user = "Coloca un mobre de usuario"
+         user = gets.chomp
+         user.capitalize!                         Obliga a que la primera letra sea siempre mayuscula y el resto minusculas
+     
+         

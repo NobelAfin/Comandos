@@ -1,0 +1,14 @@
+Los boleanos son aquellos que solo tienen 2 valores.   VERDADEROS Y FALSOS
+
+estos son los 
+&& and
+|| or
+!  not
+  
+            AND &&                             OR ||                                     NOT !
+  Elemento 1    Elemento 2             Elemento 1    Elemento 2                 Elemento 1    Elemento 2 
+ 
+Verdadero && Verdadero = VERDADERO    Verdadero || Verdadero = VERDADERO       Si es verdadero deuelve falso
+Falso     && Verdadero = FALSO        Falso     || Verdadero = VERDADERO       Si es falso devuelve verdadero
+Verdadero && Falso     = FALSO        Verdadero || Falso     = VERDADERO         
+Falso     && Falso     = FALSO        Falso     || Falso     = FALSO

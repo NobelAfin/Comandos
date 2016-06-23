@@ -1,3 +1,0 @@
-sudo apt-get install postgresql postgresql-contrib
-instalar postgreql y despues ir a gorails e instalar la version de ubuntu 16.04 si es que todavia tienes esa version
-

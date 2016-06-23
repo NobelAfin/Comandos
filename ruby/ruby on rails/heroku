@@ -1,0 +1,4 @@
+Heroku 
+primero entrar a la pagina https://toolbelt.heroku.com/debian
+despues correr el comando en la terminal wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+Crear proyecto en heroku.com e ir en 
